@@ -1,0 +1,119 @@
+* {
+    text-decoration: none !important;
+    color: #E62727 !important;
+}
+
+@font-face {
+  font-family: Amore;
+  src: url(Amore\ Christmas.otf);
+}
+
+@font-face {
+  font-family: GaretBook;
+  src: url(Garet-Book.woff);
+}
+
+.fontjudul {
+    font-family: 'Amore';
+}
+
+.navjudul{
+    font-size: 20px;
+}
+
+.judul{
+    font-size: 70px;
+}
+
+.teks {
+    font-size: 17px;
+}
+
+.border1 {
+    border-style: solid;
+    border-width: 2px 0 2px 0;
+    border-color: #E62727;
+}
+
+.default {
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .judul {
+        font-size: 50px;
+    }
+    .teks {
+        font-size: 15px;
+    }
+    .default {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .judul {
+        font-size: 40px;
+    }
+    .teks {
+        font-size: 13px;
+    }
+    .default {
+        font-size: 30px;
+    }
+    .navjudul{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 576px) {
+    .judul {
+        font-size: 30px;
+    }
+    .teks {
+        font-size: 8px;
+    }
+    .default {
+        font-size: 25px;
+    }
+    .navjudul{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 430px) {
+    .judul {
+        font-size: 27px;
+    }
+    .teks {
+        font-size: 8px;
+    }
+    .default {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .judul {
+        font-size: 25px;
+    }
+    .teks {
+        font-size: 7px;
+    }
+    .default {
+        font-size: 15px;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+}
+.logo-small {
+    width: 70px;      /* adjust size here */
+    height: auto;     /* keeps proportions */
+}
